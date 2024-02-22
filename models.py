@@ -1,3 +1,4 @@
+#增加一个注释
 from django.db import models
 
 class Topic(models.Model):
@@ -24,6 +25,7 @@ class Entry(models.Model):
 			return self.text[:50] + "..."
 		else:
 			return self.text[:50]
+
 
 
 
